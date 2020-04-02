@@ -8,8 +8,8 @@ import api from '../../services/api';
 
 export default function NewIncident(){
 
-    const [title, setTitle] = useState('');
     const [description, setDescription] = useState('');
+    const [title, setTitle] = useState('');
     const [value, setValue] = useState('');
     const ongId = localStorage.getItem('ongId');
     const history = useHistory();
